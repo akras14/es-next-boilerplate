@@ -8,6 +8,8 @@
 4. In another terminal tab `npm start`
 5. Open your browser to `http://127.0.0.1:8080`
 
-## Want More?
+## Eslint Getting Started
 
-Check out other branches on this repo (i.e. [eslint](https://github.com/akras14/es-next-boilerplate/tree/eslint)), with different boilerplate recipes to use.
+1. Simply run `npm run lint` to link your code.
+1. Edit `.eslintrc.json` for eslint config. See [eslint.org](http://eslint.org/) for more info.
+
