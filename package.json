@@ -6,7 +6,6 @@
   "scripts": {
     "start": "http-server",
     "watch": "webpack -w",
-    "watch": "webpack -W",
     "lint": "eslint src/**",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
