@@ -15,3 +15,4 @@ Collection of starter templates, all as easy to run as:
 1. [Bootstrap](https://github.com/akras14/es-next-boilerplate/tree/bootstrap)
 1. [Sass](https://github.com/akras14/es-next-boilerplate/tree/sass)
 1. [Bootstrap + Sass](https://github.com/akras14/es-next-boilerplate/tree/bootstrap-sass)
+1. [React](https://github.com/akras14/es-next-boilerplate/tree/react)
