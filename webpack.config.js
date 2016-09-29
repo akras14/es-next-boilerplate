@@ -3,7 +3,7 @@ require('webpack');
 
 module.exports = {
   entry: {
-    main: path.resolve(__dirname, 'src/main.es6'),
+    main: path.resolve(__dirname, 'src/main.jsx')
   },
   output: {
     path: path.resolve(__dirname, './build/'),
@@ -12,11 +12,11 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.es6?$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
         loader: 'babel',
         query: {
-          presets: ['es2015']
+          presets: ['es2015', 'react']
         }
       },
       {
@@ -27,7 +27,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.es6']
+    extensions: ['', '.js', '.jsx']
   },
   sassLoader: {
     includePaths: [
