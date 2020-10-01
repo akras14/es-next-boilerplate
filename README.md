@@ -1,6 +1,6 @@
 # Front End Starter Projects
 
-Collection of starter templates, all as easy to run as: 
+Collection of starter templates, which are all as easy to run as described below: 
 
 1. Clone the branch.
 2. `npm install`
